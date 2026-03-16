@@ -11,7 +11,7 @@ Tugas ini terdiri dari dua bagian utama yang melatih ketelitian dalam menyusun t
 
 Metode & Teknologi yang Digunakan
 - Karena aturannya No CSS & No JS, saya menggunakan pendekatan Old-School Web Development:
-- Layouting via Tables: Semua penempatan elemen diatur menggunakan tag <table>, <tr>, dan <td>. Ini adalah teknik paling dasar untuk menjaga struktur elemen tetap sejajar.
+- Layouting via Tables: Semua penempatan elemen diatur menggunakan tag table, tr, dan td. Ini adalah teknik paling dasar untuk menjaga struktur elemen tetap sejajar.
 - Inline Styling Atributes: Untuk pewarnaan dan perataan, saya menggunakan atribut bawaan HTML seperti bgcolor, align, valign, cellpadding, dan cellspacing.
 - Typography: Menggunakan tag <font> dan inline style sederhana untuk menentukan jenis font (seperti Times New Roman) agar identik dengan permintaan desain.
 - Form Validation Dasar: Menggunakan atribut bawaan HTML5 seperti placeholder dan required untuk memastikan fungsionalitas formulir berjalan baik.
