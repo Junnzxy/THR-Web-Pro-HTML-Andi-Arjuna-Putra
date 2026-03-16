@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran OSIS</title>
+</head>
+<body bgcolor="#ffffff">
+
+    <table border="1" cellspacing="0" cellpadding="0" width="600" align="center" style="font-family: 'Times New Roman', Times, serif;">
+        <tr>
+            <td>
+                <table border="0" cellspacing="0" cellpadding="10" width="100%" bgcolor="#0000FF">
+                    <tr>
+                        <td align="center">
+                            <font color="#ffffff" size="4"><b>FORM PENDAFTARAN OSIS</b></font>
+                        </td>
+                    </tr>
+                </table>
+
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <table border="0" cellspacing="0" cellpadding="12" width="100%">
+                        <tr>
+                            <td width="220"><b>Nama Lengkap</b></td>
+                            <td><input type="text" name="nama_lengkap" placeholder="Nama Lengkap" size="30" style="font-family: 'Times New Roman';"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Nama Panggilan</b></td>
+                            <td><input type="text" name="nama_panggilan" placeholder="Nama Panggilan" size="30" style="font-family: 'Times New Roman';"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Tempat Tanggal Lahir</b></td>
+                            <td><input type="text" name="ttl" placeholder="dd/mm/yyyy" size="30" style="font-family: 'Times New Roman';"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Jenis Kelamin</b></td>
+                            <td>
+                                <b>Laki-Laki</b> <input type="radio" name="jk" value="L"> 
+                                <b>Perempuan</b> <input type="radio" name="jk" value="P">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Nomor Telepon</b></td>
+                            <td><input type="text" name="telp" placeholder="Telepon" size="30" style="font-family: 'Times New Roman';"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Jurusan</b></td>
+                            <td>
+                                <b>IPA</b> <input type="radio" name="jurusan" value="IPA"> 
+                                <b>IPS</b> <input type="radio" name="jurusan" value="IPS"> 
+                                <b>BAHASA</b> <input type="radio" name="jurusan" value="BAHASA">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Agama</b></td>
+                            <td>
+                                <select name="agama" style="font-family: 'Times New Roman';">
+                                    <option value="Islam">Islam</option>
+                                    <option value="Kristen">Kristen</option>
+                                    <option value="Katolik">Katolik</option>
+                                    <option value="Hindu">Hindu</option>
+                                    <option value="Buddha">Buddha</option>
+                                    <option value="Khonghucu">Khonghucu</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Hobi</b></td>
+                            <td>
+                                <b>Membaca Buku</b> <input type="checkbox" name="hobi[]" value="Membaca"> 
+                                <b>Menulis</b> <input type="checkbox" name="hobi[]" value="Menulis"> 
+                                <b>dll</b> <input type="checkbox" name="hobi[]" value="dll">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td valign="top"><b>Alasan/Motivasi untuk mendaftar</b></td>
+                            <td>
+                                <textarea name="motivasi" rows="10" cols="40" style="font-family: 'Times New Roman';"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Foto 3X4</b></td>
+                            <td><input type="file" name="foto" style="font-family: Arial, sans-serif;"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" align="center">
+                                <br>
+                                <input type="submit" value="Daftar" style="font-weight: bold; font-family: Arial, sans-serif; padding: 4px 15px; cursor: pointer;">
+                                <input type="reset" value="Reset" style="font-weight: bold; font-family: Arial, sans-serif; padding: 4px 15px; cursor: pointer;">
+                                <br><br>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
